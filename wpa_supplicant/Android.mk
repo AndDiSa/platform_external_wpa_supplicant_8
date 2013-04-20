@@ -833,7 +833,7 @@ ifdef CONFIG_NATIVE_WINDOWS
 #dynamic symbol loading that is now used in pcsc_funcs.c
 #LIBS += -lwinscard
 else
-LIBS += -lpcsclite -lpthread
+LIBS += -lpcsclite 
 endif
 endif
 
